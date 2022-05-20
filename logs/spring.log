@@ -406,3 +406,30 @@ org.hibernate.PropertyValueException: not-null property references a null or tra
 2022-05-16 22:07:22.577  WARN 6108 --- [http-nio-8081-exec-1] com.midd.core.RecursosActivos            : El activo 167 no puede ser eliminado por el usuario null!
 2022-05-16 22:09:37.914  WARN 6108 --- [http-nio-8081-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
 2022-05-16 22:09:51.872  WARN 6108 --- [http-nio-8081-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2022-05-20 12:43:08.759  INFO 76522 --- [main] c.midd.core.MiddlewareApplicationTests   : Starting MiddlewareApplicationTests using Java 11.0.15 on daniel-Latitude-E6440 with PID 76522 (started by daniel in /home/daniel/middleware_tcs_proyecto-master/Middleware)
+2022-05-20 12:43:08.762  INFO 76522 --- [main] c.midd.core.MiddlewareApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2022-05-20 12:43:10.870  INFO 76522 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-05-20 12:43:11.073  INFO 76522 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 169 ms. Found 10 JPA repository interfaces.
+2022-05-20 12:43:11.992  INFO 76522 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$a1bf127] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-05-20 12:43:12.189  INFO 76522 --- [main] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2022-05-20 12:43:13.372  INFO 76522 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-05-20 12:43:13.639  INFO 76522 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.7.Final
+2022-05-20 12:43:14.271  INFO 76522 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-05-20 12:43:14.593  INFO 76522 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-20 12:43:16.543  INFO 76522 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-20 12:43:16.632  INFO 76522 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2022-05-20 12:43:19.440  INFO 76522 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-05-20 12:43:19.460  INFO 76522 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-05-20 12:43:20.769  WARN 76522 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-05-20 12:43:20.981  WARN 76522 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: f3dbbd0b-a6f6-44d4-ae93-a15633553305
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2022-05-20 12:43:21.268  INFO 76522 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will not secure any request
+2022-05-20 12:43:22.227  INFO 76522 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-20 12:43:22.955  INFO 76522 --- [main] c.midd.core.MiddlewareApplicationTests   : Started MiddlewareApplicationTests in 15.373 seconds (JVM running for 17.964)
+2022-05-20 12:43:23.255  INFO 76522 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-05-20 12:43:23.272  INFO 76522 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-20 12:43:23.292  INFO 76522 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
